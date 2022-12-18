@@ -300,7 +300,7 @@ def main():
     @st.cache
     def load_model():
         '''loading the trained model'''
-        return pickle.load(open('HistGB_clf_model.pkl', 'rb'))
+        return pickle.load(open('HistGB_Clf_model.pkl', 'rb'))
 
     @st.cache
     def get_client_info(df, id_client):
